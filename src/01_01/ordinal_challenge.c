@@ -5,7 +5,12 @@ char *ordinal(int v)
 	/*
 	   - create this function
 	   - this code won't run with out it!
-	 */
+	*/
+	if ( v > 10 && v < 14) return "th";
+	else if ( (v - 1) % 10 == 0) return "st";
+	else if ( (v - 2) % 10 == 0) return "nd";
+	else if ( (v - 3) % 10 == 0) return "rd";
+	else return "th";
 }
 
 int main()
