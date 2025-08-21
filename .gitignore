@@ -2,7 +2,7 @@
 node_modules
 .tmp
 npm-debug.log
+/workspaces/level-up-C-3084137/.vscode/
 *.o
 *.exe
 a.out
-src/01_01/ordinal_challenge
